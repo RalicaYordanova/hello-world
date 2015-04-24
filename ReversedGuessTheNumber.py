@@ -1,7 +1,10 @@
-import random
+##################################################################
+# 24.04.2015 Created by Ralica Yordanova                         #
+##################################################################
 
 goal = int(raw_input("Geben Sie eine Zahl von 1 bis 100 ein! \t"))
 print goal
+
 
 autoversuch = 50
 print "Autoversuch: \t", autoversuch
