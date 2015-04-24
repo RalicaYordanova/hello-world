@@ -5,12 +5,11 @@
 goal = int(raw_input("Geben Sie eine Zahl von 1 bis 100 ein! \t"))
 print goal
 
-
-autoversuch = 50
-print "Autoversuch: \t", autoversuch
-
 lower = 0
 upper = 100
+
+autoversuch = (lower + upper) / 2
+print "Autoversuch: \t", autoversuch
 
 
 while (autoversuch != goal):
